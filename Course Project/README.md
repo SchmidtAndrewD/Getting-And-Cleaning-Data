@@ -26,3 +26,10 @@ GITHUB Repo Includes:
 - TidyDataSet.txt	##	This contains the output for Questions 5 above
 - README.md 		##	This is the file you are currently reading
 - CodeBook.md		## 	This file summarizes the variables in TidyDataSet.txt 
+
+
+Read Dataset Back into R:
+TidyDataSet    <- read.table("./TidyDataSet.txt" , header=T)
+View(TidyDataSet)
+
+
